@@ -1,17 +1,17 @@
 <template>
-  <div class="min-h-screen bg-tile flex flex-col items-center justify-center text-white p-4">
+  <div class="min-h-screen bg-tile flex flex-col items-center justify-center text-white p-8">
     <!-- Hero Section -->
-    <div class="text-center">
-      <h1 class="text-5xl md:text-7xl font-bold mb-4 display text-[#e0d1b7]">Bussin</h1>
-      <div class="w-24 h-1 bg-amber-300 mx-auto mb-8"></div>
-      <h2 class="text-2xl md:text-3xl mb-6">Coming Soon</h2>
-      <p class="text-lg md:text-xl text-amber-200 max-w-2xl mx-auto">
+    <div class="text-center font-serif max-w-4xl mx-auto">
+      <h1 class="text-6xl md:text-8xl font-bold mb-6 display text-[#e0d1b7]">Bussin</h1>
+      <div class="w-32 h-1 bg-amber-300 mx-auto mb-12"></div>
+      <p class="text-xl md:text-2xl text-amber-200 max-w-2xl mx-auto mb-8">
         Premium espresso and crafted beverages.
       </p>
+      <h2 class="text-2xl md:text-4xl font-light">Coming Soon</h2>
     </div>
 
     <!-- Social Media Links -->
-    <div class="mt-12 flex gap-6">
+    <div class="mt-16 flex gap-8">
       <a 
         href="https://www.facebook.com/people/Bussin-Espresso/61567736013571/" 
         target="_blank"
@@ -35,10 +35,10 @@
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 .bg-tile {
   background-image: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
     url('https://ik.imagekit.io/y3ayiqneqlr/bussin/bussin-tile.webp?tr=w-300');
   background-size: cover;
   background-position: center;

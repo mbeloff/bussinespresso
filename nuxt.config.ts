@@ -9,12 +9,11 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss','@nuxt/fonts'],
   fonts: {
     families: [
-      // do not resolve this font with any provider from `@nuxt/fonts`
-      { name: 'Custom Font', provider: 'none' },
       // only resolve this font with the `google` provider
-      { name: 'Roboto', provider: 'google' },
+      { name: 'Abril Fatface', provider: 'google' },
       // specify specific font data - this will bypass any providers
       { name: 'Tan Buster', src: '/fonts/tan-buster.ttf' },
     ]
   },
+  ssr: false,
 })
