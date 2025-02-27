@@ -1,10 +1,14 @@
 <template>
-  <div class="min-h-screen bg-tile flex flex-col items-center justify-center text-white p-8">
+  <div class="min-h-screen relative bg-tile flex flex-col items-center justify-center text-white p-8 relative ">
+    <!-- Neon border -->
+    <div class="absolute inset-4 border-2 border-yellow-500 pointer-events-none"></div>
+    <div class="absolute inset-4 border-2 border-yellow-500 blur-[3px] pointer-events-none"></div>
+    <div class="absolute inset-4 border-2 border-yellow-500 blur-md pointer-events-none"></div>
     <!-- Hero Section -->
     <div class="text-center font-serif max-w-4xl mx-auto">
-      <h1 class="text-6xl md:text-8xl font-bold mb-6 display text-[#e0d1b7]">Bussin</h1>
+      <h1 class="text-5xl md:text-8xl font-bold mb-6 display text-[#e0d1b7]">Bussin</h1>
       <div class="w-32 h-1 bg-amber-300 mx-auto mb-12"></div>
-      <p class="text-xl md:text-2xl text-amber-200 max-w-2xl mx-auto mb-8">
+      <p class="text-xl md:text-2xl text-amber-200 max-w-2xl mx-auto mb-8 text-balance">
         Premium espresso and crafted beverages.
       </p>
       <h2 class="text-2xl md:text-4xl font-light">Coming Soon</h2>
@@ -32,18 +36,20 @@
       </a>
     </div>
 
+    <!-- Updated glow effect -->
+    <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-glow pointer-events-none"></div>
   </div>
 </template>
 
 <style lang="postcss">
 .bg-tile {
   background-image: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)),
-    url('https://ik.imagekit.io/y3ayiqneqlr/bussin/bussin-tile.webp?tr=w-300');
+    radial-gradient(circle at center, rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.99) 100%),
+    url('https://ik.imagekit.io/y3ayiqneqlr/bussin/bussin-tile.webp?tr=w-250');
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
-  background-size: 300px
+  background-repeat: no-repeat,repeat;
+  background-size: 100%, 250px
 }
 .display {
   font-family: 'Tan Buster';
@@ -54,5 +60,15 @@
     2px -2px 0 black,
     -2px 2px 0 black,
     2px 2px 0 black;
+}
+.bg-glow {
+  background: radial-gradient(
+    ellipse at center bottom,
+    rgba(253, 166, 17, 0.425) 0%,
+    rgba(234, 178, 8, 0.288) 25%,
+    rgba(231, 155, 14, 0.13) 50%,
+    rgba(245, 159, 11, 0.048) 65%,
+    rgba(245, 159, 11, 0) 75%
+  );
 }
 </style>
