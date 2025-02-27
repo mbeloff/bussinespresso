@@ -37,7 +37,7 @@
     </div>
 
     <!-- Updated glow effect -->
-    <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-glow pointer-events-none"></div>
+    <!-- <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-glow pointer-events-none"></div> -->
   </div>
 </template>
 
