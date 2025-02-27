@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-tile flex flex-col items-center justify-center text-white p-4">
     <!-- Hero Section -->
     <div class="text-center">
-      <h1 class="text-5xl md:text-7xl font-bold mb-4 display">Bussin</h1>
+      <h1 class="text-5xl md:text-7xl font-bold mb-4 display text-[#e0d1b7]">Bussin</h1>
       <div class="w-24 h-1 bg-amber-300 mx-auto mb-8"></div>
       <h2 class="text-2xl md:text-3xl mb-6">Coming Soon</h2>
       <p class="text-lg md:text-xl text-amber-200 max-w-2xl mx-auto">
@@ -35,7 +35,7 @@
   </div>
 </template>
 
-<style lang="postcss">
+<style>
 .bg-tile {
   background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
@@ -47,5 +47,12 @@
 }
 .display {
   font-family: 'Tan Buster';
+  position: relative;
+  color: #e0d1b7;
+  text-shadow: 
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
 }
 </style>
