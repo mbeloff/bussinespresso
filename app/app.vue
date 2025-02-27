@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen relative bg-tile flex flex-col items-center justify-center text-white p-8 relative ">
+  <div class="min-h-dvh relative bg-tile flex flex-col items-center justify-center text-white p-8 relative ">
     <!-- Neon border -->
     <div class="absolute inset-4 border-2 border-yellow-500 pointer-events-none"></div>
     <div class="absolute inset-4 border-2 border-yellow-500 blur-[3px] pointer-events-none"></div>
