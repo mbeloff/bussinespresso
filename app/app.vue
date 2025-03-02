@@ -6,10 +6,10 @@
     <div class="absolute inset-4 border-2 border-yellow-500 blur-md pointer-events-none"></div>
     <!-- Hero Section -->
     <div class="text-center font-serif max-w-4xl mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6 display text-[#e0d1b7] text-balance">Bussin Espresso<br><span class="text-2xl md:text-4xl"> & Eats</span></h1>
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 display text-[#e0d1b7] text-balance">Bussin<br><span class="text-2xl md:text-4xl">Food and Events</span></h1>
       <div class="w-32 h-1 bg-amber-300 mx-auto mb-12"></div>
       <p class="text-xl md:text-2xl text-amber-200 max-w-2xl mx-auto mb-8 text-balance">
-        Premium Espresso, crafted beverages and comfort food.
+        Grilled Cheese Sandwiches & Chilled Beverages
       </p>
       <h2 class="text-2xl md:text-4xl font-light">Coming Soon</h2>
     </div>
@@ -17,7 +17,7 @@
     <!-- Social Media Links -->
     <div class="mt-16 flex gap-8">
       <a 
-        href="https://www.facebook.com/people/Bussin-Espresso/61567736013571/" 
+        href="https://www.facebook.com/bussinfoodandevents" 
         target="_blank"
         class="hover:text-amber-300 transition-colors"
       >
@@ -26,7 +26,7 @@
         </svg>
       </a>
       <a 
-        href="https://www.instagram.com/bussin.espresso/" 
+        href="https://www.instagram.com/bussinfoodandevents" 
         target="_blank"
         class="hover:text-amber-300 transition-colors"
       >
