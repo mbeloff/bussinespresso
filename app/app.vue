@@ -35,6 +35,9 @@
         </svg>
       </a>
     </div>
+    <div class="text-center mt-4">
+      <a href="mailto:info@bussinfoodandevents.com" class="hover:text-amber-300 transition-colors">info@bussinfoodandevents.com</a>
+    </div>
 
     <!-- Updated glow effect -->
     <!-- <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-glow pointer-events-none"></div> -->
