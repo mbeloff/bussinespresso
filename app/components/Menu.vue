@@ -5,7 +5,10 @@
         Our <span class="highlight">Menu</span>
       </h2>
 
-
+                  <!-- Bread Options -->
+                  <div class="text-center text-gray-300 my-8">
+        <p>Signature grilled sandwiches available on thick cut white, sourdough, brioche or gluten free</p>
+      </div>
       
       <!-- Favourites Section -->
       <div class="mb-12">
@@ -55,10 +58,7 @@
         </div>
       </div>
 
-                  <!-- Bread Options -->
-                  <div class="text-center text-gray-300 my-8">
-        <p>All sandwiches available on thick cut white, sourdough, brioche or gluten free</p>
-      </div>
+
 
       <!-- Dessert Toasties Section -->
       <div class="mb-12">
