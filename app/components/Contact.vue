@@ -11,7 +11,7 @@
           <div>
             <h3 class="text-2xl font-display text-[#FFB800] mb-4">Get in Touch</h3>
             <p class="text-gray-300">
-              Whether you're looking to book a corporate function or private party, or just have questions about our menu, we're here to help.
+              Whether you're looking to book a private or community event, or just have questions about our menus, we're here to help.
             </p>
           </div>
 
