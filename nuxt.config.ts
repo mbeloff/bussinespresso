@@ -16,4 +16,19 @@ export default defineNuxtConfig({
     ]
   },
   ssr: false,
+
+  runtimeConfig: {
+    public: {
+      // Public variables that will be exposed to the client
+    },
+    // Private variables that will only be available on the server
+    private: {
+      emailHost: process.env.EMAIL_HOST,
+      emailPort: process.env.EMAIL_PORT,
+      emailUser: process.env.EMAIL_USER,
+      emailPass: process.env.EMAIL_PASS,
+      emailTo: process.env.EMAIL_TO,
+
+    }
+  },
 })
