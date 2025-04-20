@@ -7,7 +7,7 @@
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="space-y-6">
           <p class="text-lg text-gray-200">
-            Bussin' Espresso transforms classic comfort food into gourmet street fare, specializing in elevated grilled cheese. We pair nostalgic flavors with premium ingredients, creating an unforgettable culinary experience.
+            Bussin' transforms classic comfort food into gourmet street fare, specializing in elevated grilled cheese. We pair nostalgic flavors with premium ingredients, creating an unforgettable culinary experience.
           </p>
           <p class="text-lg text-gray-200">
             We're not just serving food; we're creating moments that enhance your events. From corporate function or community markets, we bring our unique blend of comfort and class to every occasion.

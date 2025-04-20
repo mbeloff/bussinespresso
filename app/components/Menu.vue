@@ -27,9 +27,9 @@
             </div>
             <h3 class="text-2xl font-display text-[#FFB800] mb-2">{{ item.name }}</h3>
             <p class="text-gray-300 mb-4">{{ item.description }}</p>
-            <div class="mt-auto">
+            <!-- <div class="mt-auto">
               <span class="text-xl font-display text-[#FFB800]">${{ item.price }}</span>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
