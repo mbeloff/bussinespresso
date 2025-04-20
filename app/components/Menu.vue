@@ -51,9 +51,9 @@
             </div>
             <h3 class="text-2xl font-display text-[#FFB800] mb-2">{{ item.name }}</h3>
             <p class="text-gray-300 mb-4">{{ item.description }}</p>
-            <div class="mt-auto">
+            <!-- <div class="mt-auto">
               <span class="text-xl font-display text-[#FFB800]">${{ item.price }}</span>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -77,9 +77,9 @@
             </div>
             <h3 class="text-2xl font-display text-[#FFB800] mb-2">{{ item.name }}</h3>
             <p class="text-gray-300 mb-4">{{ item.description }}</p>
-            <div class="mt-auto">
+            <!-- <div class="mt-auto">
               <span class="text-xl font-display text-[#FFB800]">${{ item.price }}</span>
-            </div>
+            </div> -->
           </div>
         </div>
         <p class="text-center text-gray-300 mt-4">Add French Toast for $2</p>
@@ -95,9 +95,9 @@
                    border border-[#1a1a1a] hover:border-[#FFB800]/20 flex flex-col h-full">
             <h3 class="text-2xl font-display text-[#FFB800] mb-2">{{ item.name }}</h3>
             <p class="text-gray-300 mb-4">{{ item.description }}</p>
-            <div class="mt-auto">
+            <!-- <div class="mt-auto">
               <span class="text-xl font-display text-[#FFB800]">${{ item.price }}</span>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
